@@ -40,7 +40,7 @@ public class Main {
 
     public static void yearCounter(int year) {
 
-        if (year >= 1582) {
+        if (year <= 1582) {
 
             System.out.println("Григорианский календарь был введён с 1582 года.");
         } else if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
